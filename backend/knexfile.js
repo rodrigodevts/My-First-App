@@ -10,6 +10,7 @@ module.exports = {
       password: '',
       database: 'myapp_test',
     },
+    useNullAsDefault: true,
     migrations: {
       directory: './src/database/migrations'
     }
